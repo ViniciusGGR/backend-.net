@@ -6,6 +6,20 @@
 
 **Linguagens de programação**
 
+Uma _linguagem de programação_ é a forma **comunicação** como humanos dizem para o computador executar algo.
+
+Computadores utilizam o formato **_binário_**, 0s e 1s para realizar operações executadas dentro do precessador/CPU, GPU, Memória...
+
+As **Linguagens de Programação** LPs, fazem o intermédio.
+- O que os devs escrevem será traduzido para uma linguagem binária (linguagem de máquina).
+    - Resumo: Arquivo de texto que humanos conseguem ler, que é traduzido para binário, assim o computador consegue ler/executar esse arquivo.
+- O processo de "tradução" é conhecido como **_compilação_**.
+- **Obs**: Existem várias **linguagens de programação**.
+    - Cada linguagem tem seu compilador.
+    - Cada compilador trabalha de uma forma.
+
+> **_Compilador_**: Agente que executa a compilação, que é a transformação do texto escrito para binário (0 e 1).
+
 **Alto e baixo nível**
 
 **Linguagem compilada e interpretada**
