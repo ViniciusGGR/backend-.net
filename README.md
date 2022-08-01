@@ -2,7 +2,7 @@
 
 Tudo sobre a criação de aplicações utilizando .NET, dos fundamentos a arquitetura de software.
 
-### Fundamentos do C#
+### [Fundamentos do C#](/courses/fundamentos-do-c%23.md)
 
 Aprenda os fundamentos necessários para desenvolvimento e que consiga aprender assim, novas tecnologias no futuro.
 
