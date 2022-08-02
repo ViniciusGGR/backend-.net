@@ -22,6 +22,18 @@ As **Linguagens de Programação** LPs, fazem o intermédio.
 
 **Alto e baixo nível**
 
+Ao enviar uma instrução ao computador, se está falando em **_nível de máquina_ (baixo nível)**.
+- Instruções sempre serão em formato binário.
+
+Alto nível está mais próximo dos usuários/desenvolvedores, e baixo nível está mais próximo do CPU/GPU, que é as instruções em binário.
+
+Quanto mais detalhada a necessidade de mandar uma instrução para o processador, mais baixo será o nível.
+
+As linguagens mais modernas como _C#_ e _Java_ são consideradas de **alto nível**.
+- Alto nível: Favorece mais os desenvolvedores do que o processador.
+
+> **_Linguagens de alto nível, fornecem um acesso à tudo que é preciso a nível de hardware já pronto_**.
+
 **Linguagem compilada e interpretada**
 
 **Compilada e interpretada**
