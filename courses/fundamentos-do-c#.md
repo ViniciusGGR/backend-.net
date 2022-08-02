@@ -32,7 +32,7 @@ Quanto mais detalhada a necessidade de mandar uma instrução para o processador
 As linguagens mais modernas como _C#_ e _Java_ são consideradas de **alto nível**.
 - Alto nível: Favorece mais os desenvolvedores do que o processador.
 
-> **_Linguagens de alto nível, fornecem um acesso à tudo que é preciso a nível de hardware já pronto_**.
+> **_Linguagens de alto nível fornecem um acesso à tudo que é preciso a nível de hardware já pronto_**.
 
 ### Linguagem compilada e interpretada
 
@@ -56,6 +56,37 @@ As linguagens interpretadas, no caso o JavaScript:
 - Lê e executa um arquivo de texto JavaScript.
 
 ### Compilada e interpretada
+
+Linguagens Compiladas e Interpretadas não mudam muito em relação a sintaxe, mas sim na sua execução por "baixo dos panos".
+
+Prós das _Linguagens Interpretadas_:
+- Não precisa ser compilada.
+    - Não existe tempo de compilação.
+- Correções mais fáceis de serem executadas.
+- Mais simples de serem distribuídas.
+    - São "Arquivos estáticos", basta copiar os arquivos para o local desejado que tudo estará pronto/configurado.
+        - Não precisa ser traduzida para uma _linguagem de máquina_ antes da execução.
+
+Contras das _Linguagens Interpretadas_:
+- Detecção de erros com mais dificuldade.
+    - Os erros só aparecem em _tempo de execução/leitura_.
+- Tamanho final das aplicações são maiores.
+- A otimização da execução dos arquivos interpretados é menor.
+- Tem múltiplos arquivos.
+
+Prós das _Linguagens Compiladas_:
+- Tempo de compilação.
+    - Detecção de erros mais rápida.
+    > **Tempo de compilação**: _É tudo o que acontece enquanto o programa está sendo compilado._
+- Menor tamanho das aplicações.
+    - Aplicações .NET tem o arquivo _exe/dll_ no Windows, e no Mac/Linux um arquivo _dll_, que são arquivos bem compactados.
+- Maior otimização da execução.
+- Apenas um arquivo final por projeto.
+
+Contras das _Linguagens Compiladas_:
+- Precisa de um compilador.
+    - Precisa para compilar/transformar a linguagem para baixo nível, que o computador entenda. 
+- Pode ser mais burocrática.
 
 ### Tipagem de dados
 
