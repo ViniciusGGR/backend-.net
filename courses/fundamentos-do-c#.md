@@ -2,9 +2,9 @@
 
 ---
 
-### Linguagens e Compiladores:
+## Linguagens e Compiladores:
 
-**Linguagens de programação**
+### Linguagens de programação
 
 Uma _linguagem de programação_ é a forma **comunicação** como humanos dizem para o computador executar algo.
 
@@ -20,7 +20,7 @@ As **Linguagens de Programação** LPs, fazem o intermédio.
 
 > **_Compilador_**: Agente que executa a compilação, que é a transformação do texto escrito para binário (0 e 1).
 
-**Alto e baixo nível**
+### Alto e baixo nível
 
 Ao enviar uma instrução ao computador, se está falando em **_nível de máquina_ (baixo nível)**.
 - Instruções sempre serão em formato binário.
@@ -34,344 +34,363 @@ As linguagens mais modernas como _C#_ e _Java_ são consideradas de **alto níve
 
 > **_Linguagens de alto nível, fornecem um acesso à tudo que é preciso a nível de hardware já pronto_**.
 
-**Linguagem compilada e interpretada**
+### Linguagem compilada e interpretada
 
-**Compilada e interpretada**
+**Linguagens compiladas**:
 
-**Tipagem de dados**
+Uma linguagem é compilada quando existe o processo de compilação.
+- Compilação: Conversão de um arquivo de texto (de fácil entendimento para humanos) para binário (0s e 1s).
 
-**Revisão**
+**Linguagens interpretadas**:
 
----
+São arquivos de texto, que _não são convertidos para binário_.
+- Arquivos lidos e interpretados por um **intérprete**.
+- A interpretação/leitura do arquivo é feita em **_tempo de execução/real_**.
+    - Exemplo de uma linguagem interpretada: **JavaScript**.
 
-### C#:
+> **Tempo de execução**: É o que acontece durante a execução do código pelo computador/interpretador.
 
-**Por que utilizar C#?**
+As linguagens interpretadas, no caso o JavaScript:
+- Os navegadores é escrito em uma linguagem de alto nível.
+- Os navegadores possuem um **interpretador**.
+- Lê e executa um arquivo de texto JavaScript.
 
-**C# como primeira linguagem**
+### Compilada e interpretada
 
-**Código gerenciado**
+### Tipagem de dados
 
-**Compilação e gerenciamento**
-
-**IL**
-
-**Revisão**
-
----
-
-### Frameworks:
-
-**Frameworks**
-
-**.NET Framework**
-
-**.NET Core**
-
-**.NET Standard**
-
-**.NET 5**
-
-**LTS**
-
-**Versionamento**
-
-**Runtime e SDK**
-
-**Revisão**
+### Revisão
 
 ---
 
-### .NET:
+## C#:
 
-**Instalação**
+### Por que utilizar C#?
 
-**dotnet cli**
+### C# como primeira linguagem
 
-**VS Code**
+### Código gerenciado
 
-**Tipos de projeto**
+### Compilação e gerenciamento
 
-**Fluxo de execução**
+### IL
 
-**Variáveis de ambiente**
-
-**Estrutura do App**
-
-**Debug**
-
-**Revisão**
+### Revisão
 
 ---
 
-### Linguagem de Programação com C#:
+## Frameworks:
 
-**Notas importantes**
+### Frameworks
 
-**Escopo de um programa**
+### .NET Framework
 
-**Namespaces**
+### .NET Core
 
-**Using**
+### .NET Standard
 
-**Variáveis**
+### .NET 5
 
-**Constantes**
+### LTS
 
-**Palavras reservadas**
+### Versionamento
 
-**Comentários**
+### Runtime e SDK
 
-**Tipos primitivos**
-
-**System**
-
-**Byte**
-
-**Números inteiros**
-
-**Números reais**
-
-**Boolean**
-
-**Char**
-
-**String**
-
-**Var**
-
-**Object**
-
-**Nullabel Types**
-
-**Alias**
-
-**Valores padrões**
-
-**Conversão implícita**
-
-**Conversão explícita**
-
-**Parse**
-
-**Convert**
-
-**Convertendo tipos**
-
-**Operadores aritméticos**
-
-**Operadores de atribuição**
-
-**Operadores de comparação**
-
-**Utilizando operadores**
-
-**Operadores lógicos**
-
-**Operador condicional: IF**
-
-**Utilizando IF**
-
-**Estrutura condicional: Switch**
-
-**Laços de repetição: For**
-
-**Laços de repetição: While**
-
-**Laços de repetição: Do/While**
-
-**Métodos e funções**
-
-**Métodos e funções: Prática**
-
-**Value Types e Reference Types**
-
-**Value Types e Reference Types: Prática**
-
-**Structs**
-
-**Structs: Prática**
-
-**Enums**
-
-**Revisão**
+### Revisão
 
 ---
 
-### Mão na massa - Criando uma calculadora:
+## .NET:
 
-**Iniciando o projeto**
+### Instalação
 
-**Soma**
+### dotnet cli
 
-**Utilizando funções**
+### VS Code
 
-**Subtração**
+### Tipos de projeto
 
-**Divisão**
+### Fluxo de execução
 
-**Multiplicação**
+### Variáveis de ambiente
 
-**Menu da aplicação**
+### Estrutura do App
 
-**Chamando as funções**
+### Debug
 
-**Saindo da aplicação**
-
-**Revisão**
+### Revisão
 
 ---
 
-### Mão na massa - Cronômetro:
+## Linguagem de Programação com C#:
 
-**Iniciando o projeto**
+### Notas importantes
 
-**Estrutura do cronômetro**
+### Escopo de um programa
 
-**Thread e Sleep**
+### Namespaces
 
-**Criando o menu**
+### Using
 
-**Opções do menu**
+### Variáveis
 
-**Substring**
+### Constantes
 
-**Obtendo a opção**
+### Palavras reservadas
 
-**Calculando o tempo**
+### Comentários
 
-**Finalizando a aplicação**
+### Tipos primitivos
 
-**Revisão**
+### System
 
----
+### Byte
 
-### Mão na massa - Editor de Textos:
+### Números inteiros
 
-**Iniciando o projeto**
+### Números reais
 
-**Iteração e caractere de escape**
+### Boolean
 
-**Do/While na prática**
+### Char
 
-**StreamWriter**
+### String
 
-**Salvando o arquivo**
+### Var
 
-**Abrindo arquivos**
+### Object
 
-**Revisão**
+### Nullabel Types
 
----
+### Alias
 
-### Strings:
+### Valores padrões
 
-**Guids**
+### Conversão implícita
 
-**Interpolação de strings**
+### Conversão explícita
 
-**Comparação de strings**
+### Parse
 
-**StartsWith/EndsWith**
+### Convert
 
-**Equals**
+### Convertendo tipos
 
-**Índices**
+### Operadores aritméticos
 
-**Métodos adicionais**
+### Operadores de atribuição
 
-**Manipulando strings**
+### Operadores de comparação
 
-**StringBuilder**
+### Utilizando operadores
 
-**Revisão**
+### Operadores lógicos
 
----
+### Operador condicional: IF
 
-### Mão na massa - Editor HTML:
+### Utilizando IF
 
-**Iniciando o projeto**
+### Estrutura condicional: Switch
 
-**Desenhando a tela**
+### Laços de repetição: For
 
-**Exibindo o menu**
+### Laços de repetição: While
 
-**Menu da aplicação**
+### Laços de repetição: Do/While
 
-**Editor**
+### Métodos e funções
 
-**Visualizador**
+### Métodos e funções: Prática
 
-**Substituindo caracteres**
+### Value Types e Reference Types
 
-**Revisão**
+### Value Types e Reference Types: Prática
 
----
+### Structs
 
-### Datas:
+### Structs: Prática
 
-**Iniciando com datas**
+### Enums
 
-**Obtendo valores da data**
-
-**Formatando datas**
-
-**Padrões de formatação**
-
-**Adicionando valores**
-
-**Comparando datas**
-
-**CultureInfo**
-
-**Timezone**
-
-**Timespan**
-
-**Revisão**
+### Revisão
 
 ---
 
-### Moedas:
+## Mão na massa - Criando uma calculadora:
 
-**Tipo para moedas**
+### Iniciando o projeto
 
-**Formatando moedas**
+### Soma
 
-**Math**
+### Utilizando funções
 
-**Revisão**
+### Subtração
 
----
+### Divisão
 
-### Arrays:
+### Multiplicação
 
-**Arrays**
+### Menu da aplicação
 
-**Percorrendo um array**
+### Chamando as funções
 
-**ForEach**
+### Saindo da aplicação
 
-**Alterando os valores**
-
-**Revisão**
+### Revisão
 
 ---
 
-### Exceptions:
+## Mão na massa - Cronômetro:
 
-**Exceptions**
+### Iniciando o projeto
 
-**Try/Catch**
+### Estrutura do cronômetro
 
-**Tratando erros**
+### Thread e Sleep
 
-**Disparando exceções**
+### Criando o menu
 
-**Custom Exceptions**
+### Opções do menu
 
-**Finally**
+### Substring
 
-**Revisão**
+### Obtendo a opção
+
+### Calculando o tempo
+
+### Finalizando a aplicação
+
+### Revisão
+
+---
+
+## Mão na massa - Editor de Textos:
+
+### Iniciando o projeto
+
+### Iteração e caractere de escape
+
+### Do/While na prática
+
+### StreamWriter
+
+### Salvando o arquivo
+
+### Abrindo arquivos
+
+### Revisão
+
+---
+
+## Strings:
+
+### Guids
+
+### Interpolação de strings
+
+### Comparação de strings
+
+### StartsWith/EndsWith
+
+### Equals
+
+### Índices
+
+### Métodos adicionais
+
+### Manipulando strings
+
+### StringBuilder
+
+### Revisão
+
+---
+
+## Mão na massa - Editor HTML:
+
+### Iniciando o projeto
+
+### Desenhando a tela
+
+### Exibindo o menu
+
+### Menu da aplicação
+
+### Editor
+
+### Visualizador
+
+### Substituindo caracteres
+
+### Revisão
+
+---
+
+## Datas:
+
+### Iniciando com datas
+
+### Obtendo valores da data
+
+### Formatando datas
+
+### Padrões de formatação
+
+### Adicionando valores
+
+### Comparando datas
+
+### CultureInfo
+
+### Timezone
+
+### Timespan
+
+### Revisão
+
+---
+
+## Moedas:
+
+### Tipo para moedas
+
+### Formatando moedas
+
+### Math
+
+### Revisão
+
+---
+
+## Arrays:
+
+### Arrays
+
+### Percorrendo um array
+
+### ForEach
+
+### Alterando os valores
+
+### Revisão
+
+---
+
+## Exceptions:
+
+### Exceptions
+
+### Try/Catch
+
+### Tratando erros
+
+### Disparando exceções
+
+### Custom Exceptions
+
+### Finally
+
+### Revisão
 
 ---
