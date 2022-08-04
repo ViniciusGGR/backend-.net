@@ -90,6 +90,37 @@ Contras das _Linguagens Compiladas_:
 
 ### Tipagem de dados
 
+O que é uma linguagem "_tipada/fortemente tipada_"?
+
+- Uma linguagem tipada obriga o desenvolvedor a **especificação do tipo de dado da informação** armazenada em qualquer variável.
+- O dev tem uma _liberdade menor_, pois não será possível criar qualquer tipo de informação na aplicação.
+- O sistema fica muito mais otimizado com a tipagem de dados, pois o sistema já sabe o local na memória onde será armazenado esses tipos de informação.
+
+> **Tipo de Dado**: Um _tipo de dado_ define o formato de uma informação, onde se define por exemplo que aquela informação é um número, uma letra, uma cadeia de caracteres e assim por diante.
+
+Exemplo de tipagem com C#:
+
+```
+int age = 18; // OK
+int age = 18.2 // ERRO
+int age = "18"; // ERRO
+int age = 'a'; // ERRO
+```
+- O ``int`` define que a variável **age** receberá um valor **_inteiro_**, e somente um valor _inteiro_ sem exceções.
+
+> **O C# é uma linguagem de alto nível, compilada e fortemente tipada**.
+
+- A tipagem de dados serve para definir tipos e padronizar os dados.
+    - Tanto para o processador/memória, quanto para os desenvolvedores.
+- Tipar traz uma melhor otimização.
+- O ``let`` utiliza sempre o mesmo tamanho de alocação da memória, não tendo assim uma otimização.
+
+Otimização da tipagem no C# por exemplo:
+- int => 32 bit
+- float => 32 bit
+- double => 64 bit
+- decimal => 128 bit
+
 ### Revisão
 
 ---
