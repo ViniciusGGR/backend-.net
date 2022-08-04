@@ -123,6 +123,12 @@ Otimização da tipagem no C# por exemplo:
 
 ### Revisão
 
+O que foi apresentado no módulo:
+- Linguagens Tipadas e Não Tipadas.
+- Linguagens Compiladas e Interpretadas.
+- Linguagens de Alto e Baixo nível.
+- Compiladores.
+
 ---
 
 ## C#:
