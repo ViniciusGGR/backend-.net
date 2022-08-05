@@ -133,6 +133,20 @@ O que foi apresentado no módulo:
 
 ## C#:
 
+**_#_** - Sharp/Tralha/Hashtag...
+
+C# é uma linguagem de programação **tipada**, **compilada** e **gerenciada**. Foi criada em meados de 2001 por _Anders Hejlsberg_, sendo a principal linguagem da Microsoft.
+- Anders Hejlsberg também é responsável pelo Delph e TypeScript.
+
+O que o C# trás de vantagens:
+- Mercado.
+- Comunidade.
+- Linguagem Orientada a Objetos.
+- Maturidade.
+- Linguagem completa.
+    - Sendo utilizado para Web, Mobile, Desktop, IA, Machine Learning, Desenvolvimento de jogos...
+- Microsoft por trás.
+
 ### Por que utilizar C#?
 
 ### C# como primeira linguagem
