@@ -149,7 +149,12 @@ O que o C# trás de vantagens:
 
 ### C# como primeira linguagem
 
+- O C# é focada em OOP - Orientação a Objetos (Base da programação).
+    - Também pode-se utilizar o Paradigma _funcional_.
+    - **Nota**: O C# te "_obriga_" a utilizar o paradigma de Orientação a Objetos.
+- OOP dá a base para aprender coisas novas.
 
+**Dica**: Consolide o básico, assim você será capaz de aprender coisas novas com mais facilidade, não terá resistência a mudanças, pois você terá a capacidade de migrar de tecnologia de uma forma mais simples.
 
 ### Código gerenciado
 
