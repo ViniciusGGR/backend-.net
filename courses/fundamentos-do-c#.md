@@ -131,7 +131,7 @@ O que foi apresentado no módulo:
 
 ---
 
-## C#:
+## Por que utilizar C#?
 
 **_#_** - Sharp/Tralha/Hashtag...
 
@@ -147,9 +147,9 @@ O que o C# trás de vantagens:
     - Sendo utilizado para Web, Mobile, Desktop, IA, Machine Learning, Desenvolvimento de jogos...
 - Microsoft por trás.
 
-### Por que utilizar C#?
-
 ### C# como primeira linguagem
+
+
 
 ### Código gerenciado
 
