@@ -158,6 +158,16 @@ O que o C# trás de vantagens:
 
 ### Código gerenciado
 
+Uma **_linguagem gerenciada_** tem sua execução dependente de um gerenciador.
+
+O **Gerenciador** do C# é conhecido como **_Runtime_**, sendo o item que gerencia os programas escritos em C#.
+- No C# este **Runtime** se chama **_CLR_** ou **_CLR Runtime_**. 
+- O Runtime gerencia memória, segurança, entre outros recursos básicos.
+
+> **CLR:** CLR é uma sigla para _Common Language Runtime_ ou **gerenciador de linguagem comum**.
+
+Um gerenciador como o Runtime, permite que nós desenvolvedores possamos interagir menos ou quase não interagir com recursos de máquina. O gerenciador também torna o desenvolvimento mais rápido.
+
 ### Compilação e gerenciamento
 
 ### IL
