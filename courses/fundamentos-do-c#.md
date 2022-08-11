@@ -196,6 +196,13 @@ Quando realizada a compilação do código C#, esse código é "_traduzido_" par
 
 ### Revisão
 
+- C# é uma linguagem completa, popular é tem muito material.
+- É uma linguagem desafiadora, mas que traz como benefício muito aprendizado.
+- O C# é uma linguagem fortemente tipada, de alto nível, compilada e gerenciada.
+- O C# é compilado inicialmente para IL - _Intermediate Language_.
+    - Depois o CLR/Runtime compila para código de máquina/binário, executa e gerencia.
+- **IL** é a linguagem intermediária na qual todas linguagens da Microsoft são compiladas.
+
 ---
 
 ## Frameworks:
