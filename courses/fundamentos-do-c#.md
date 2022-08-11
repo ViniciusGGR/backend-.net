@@ -183,6 +183,17 @@ Quando realizada a compilação do código C#, esse código é "_traduzido_" par
 
 ### IL
 
+**Código em C#, VB.NET, F#, Cobol.NET** -> são traduzidos para a -> **Intermediate Language "_IL_"** -> depois será gerado um -> **Código Binário**.
+
+- Embora as compilações sejam diferentes, o _gerenciamento_, _alocação de memória_ e _execução de instruções no processador_ é o **mesmo**.
+- O CLR recebe um código e compila ele para IL (Intermediate Language).
+- Pode-se ter arquivos C# (.cs) e VB.NET (.vb) no mesmo projeto.
+    - **Nota**: Isso _nunca_ acontecerá no mesmo arquivo.
+- O resultado da compilação do **IL** é sempre o mesmo.
+
+**Dica**: O processo de conversão do IL para binário é conhecido como **JIT**.
+- JIT: Sigla para _Just in Time_.
+
 ### Revisão
 
 ---
