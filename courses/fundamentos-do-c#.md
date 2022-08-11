@@ -170,6 +170,17 @@ Um gerenciador como o Runtime, permite que nós desenvolvedores possamos interag
 
 ### Compilação e gerenciamento
 
+Compilação e Gerenciamento no C#:
+- A Microsoft possui outras linguagens como VB.NET, F#, Cobol.NET, sendo preciso ser todas mantidas. Com manutenção de códico, sendo correções de bugs e afins.
+- O ecossistema de desenvolvimento da Microsoft foi criado e pensado para dar **Suporte a várias linguagens**.
+    - Se cada _linguagem da Microsoft_ tivesse um gerenciador, seria muito complicado o suporte a várias linguagens.
+
+O ecossistema criado pela Microsoft tem cada compilador separado um do outro. Cada linguagem tem seu compilador (ou mais de uma linguagem).
+
+A compilação **_inicial_** não gera o código final, no caso o binário. Para manter somente **um** compilador final, a Microsoft criou uma linguagem intermediária, conhecida como "_Intermediate Language_" (**IL** - Linguagem intermediária).
+
+Quando realizada a compilação do código C#, esse código é "_traduzido_" para uma linguagem intermediária, e somente depois é **compilado**. Esse processo permite que tenha somente um gerenciador para as linguagens, e permite o uso de diferentes tipos de arquivos em um único projeto.
+
 ### IL
 
 ### Revisão
