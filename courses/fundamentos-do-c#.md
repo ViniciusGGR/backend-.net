@@ -131,7 +131,9 @@ O que foi apresentado no módulo:
 
 ---
 
-## Por que utilizar C#?
+## C#:
+
+### Por que utilizar C#?
 
 **_#_** - Sharp/Tralha/Hashtag...
 
@@ -209,7 +211,20 @@ Quando realizada a compilação do código C#, esse código é "_traduzido_" par
 
 ### Frameworks
 
-### .NET Framework
+O **Framework** é uma estrutura, um alicerce para a construção de aplicações.
+- Os Frameworks são _conjuntos de bibliotecas_. São utilizados como base para a construção de aplicações.
+- Os Frameworks ajudam muito, pois com eles não é necessário começar tudo do zero.
+- Framework é um conceito existente em diversas tecnologias.
+- **_.NET_** é um Framework da Microsoft.
+
+A ideia do _.NET Framework_ é trazer recursos comuns já prontos, validados e testados.
+- Esses "recursos" poupam muito tempo.
+
+O .NET foi criado em 2001, "junto" ao C#.
+
+### .NET 
+
+
 
 ### .NET Core
 
