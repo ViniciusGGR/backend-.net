@@ -235,6 +235,21 @@ O .NET foi criado em 2001, "junto" ao C#.
 
 ### .NET Core
 
+.NET Core:
+- ".NET Core" é uma versão moderna do Framework ".NET Framework".
+- Lançado em meados de 2015.
+- O Framework foi lançado especialmente para dar suporte a outros SOs, como Linux e Mac.
+- As primeiras versões do Framework continham apenas o básico.
+    > _Core_ significa **núcleo**, ou seja, o essencial.
+    - O Framework _.NET Core_ foi totalmente reescrito.
+    - O _.NET Core_ tem uma ótima **_``retro compatibilidade``_** com o _.NET Framework_.
+- Versão 3.1/3.2 está bem estável.
+    - Essas versões são as recomendações da Microsoft.
+    - Essas versões trouxeram muitas melhorias de **performance**.
+- Versões do .NET Core:
+    - 1.0, 1.1, 2.0, 2.1, 3.0, 3.1...
+- O Framework possui instalação ``Side-by-side``, podendo assim ter duas versões do ".NET Core" uma ao lado da outra.
+
 ### .NET Standard
 
 ### .NET 5
