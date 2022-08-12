@@ -222,9 +222,16 @@ A ideia do _.NET Framework_ é trazer recursos comuns já prontos, validados e t
 
 O .NET foi criado em 2001, "junto" ao C#.
 
-### .NET 
+### .NET Framework
 
+.NET Framework:
+- O Framework **``.NET``** teve sua primeira versão em 2001, sendo chamado de ".NET Framework".
+- .NET recebeu as versões 1.0, 1.1, 2.0, 3.0, 3.5, 4.x...
+- O ".NET Framework" pode ser instalado ``Side-by-side``, podendo assim ter duas versões do ".NET Framework" uma ao lado da outra.
+- É compativel somente com o Windows.
+- É considerado legado.
 
+> **Legado**: Softwares legados são considerados assim, quando atingem uma certa idade.
 
 ### .NET Core
 
