@@ -264,6 +264,9 @@ O .NET Standard não é um framework, e sim um contrato/definição.
 
 ### .NET 5
 
+O _.NET 5_ é a **Unificação dos Frameworks** - .NET Core e .NET Framework.
+- Não faz sentido ter dois frameworks, por isso surge o **.NET 5**, para realizar essa unificação.
+
 ### LTS
 
 ### Versionamento
