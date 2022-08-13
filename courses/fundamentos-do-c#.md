@@ -269,6 +269,30 @@ O _.NET 5_ é a **Unificação dos Frameworks** - .NET Core e .NET Framework.
 
 ### LTS
 
+Realese/Lançamento - É uma versão nova de algo, por exemplo, realeses do Windows, Mac, Linux...
+
+.NET Framework:
+- Não possuia uma data de lançamento programada.
+.NET Core:
+- Lançamentos (Realeses) semestrais.
+.NET 5...
+- Lançamentos anuais.
+
+**Nota**: Realeses com um espaço de tempo menor, e com uma quantidade menor de alterações, contribui para uma absorção mais rápida da nova versão por seus usuários.
+
+Sigla **LTS**:
+- Sigla para _Long Term Support_:
+    - Suporte de longa data.
+- Versões **LTS** do .NET Framework:
+    - Todos eram _LTS_.
+- Versões **LTS** do .NET Core:
+    - Versões com final 1.
+    - 1.1, 2.1, 3.1...
+- Versões **LTS** do .NET 5:
+    - Versões Maiores.
+
+**Dica**: Sempre opte por utilizar versões _LTS_ para projetos em produção.
+
 ### Versionamento
 
 ### Runtime e SDK
