@@ -252,6 +252,16 @@ O .NET foi criado em 2001, "junto" ao C#.
 
 ### .NET Standard
 
+_Standard_ = **Padrão**
+
+O .NET Framework e o .NET Core coexistem, podendo ser instalados juntos, e utilizados no mesmo projeto.
+
+O **.NET Standard** garante que o código rode em ambos, tanto no .NET Framework, como no .NET Core. O **.NET Standard** é considerado a _"intersecção" entre os dois frameworks_.
+
+O .NET Standard não é um framework, e sim um contrato/definição.
+- É conhecido como uma **Surface API**.
+- Garante que tudo o que foi escrito será compatível com ambos frameworks.
+
 ### .NET 5
 
 ### LTS
