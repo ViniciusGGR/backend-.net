@@ -295,6 +295,39 @@ Sigla **LTS**:
 
 ### Versionamento
 
+Versionamento de Software:
+- O _versionamento_ é definido por uma **Versão Semântica**. Essa _versão semântica é **divida em fases**.
+    - Fases: Alpha, Beta, Realese Candidate, Final.
+        - **Alpha**: Versão inicial/esboço, está muito longe de uma versão final.
+            - Em uma versão _Alpha_, ainda não se sabe como vão ser as coisas. Muita coisa pode mudar.
+            > **Alpha** => 0.0.1-a1
+            - _a1_ - Alpha 1.
+        - **Beta**: É uma versão de testes, já tem algumas coisas funcionando.
+            - Em uma versão _Beta_, já se tem ideia da estrutura, mas as coisas ainda podem mudar.
+            > **Beta** => 0.0.2-b1
+            - _b1_ - Beta 1.
+        - **Realese Candidate**: É uma versão candidata a ser uma _versão final_ da aplicação, já tem os bugs corrigidos, nomes definidos...
+            - Uma versão _Realese Candidate_ é um "Candidato a versão final".
+            > **Realese Candidate** => 1.0.0-rc1
+            - _rc1_ - Realese Candidate 1.
+        - **Final**: "Última" versão do Software.
+            > **Final** => 1.0.0
+    - **Nota**: Todo o versionamento de software é dado por números e letras.
+    - **Dica**: Normalmente _Alpha_ e _Beta_ tem versões menores que **1.0.0**.
+        - A numeração é divida em três partes:
+            - **Major**: É sempre o primeiro número, ou seja, sempre é a realese maior.
+                - **3**.1 - O número 3 é o _Major_.
+                - Quando o **Major** é alterado, significa que houve uma _grandes alterações_ na aplicação.
+                > O **Major** pode conter incompatibilidade com versões anteriores, chamadas de _Breaking Changes_.
+            - **Minor**: É o segundo número, ou seja, o primeiro número depois do ponto.
+                - 3.**1** - O número 1 é o _Minor_.
+                - Quando o **Minor** é alterado, significa _pequenas alterações_ na aplicação.
+                > O **Minor** possui mudanças mas é totalmente compatível com versões anteriores, chamada de _Backward Compatibility_.
+            - **Patch**: É o terceiro número, ou seja, o primeiro número depois do segundo ponto.
+                - 3.1.**2** - O número 2 é o _Patch_.
+                - Normalmente o _Patch_ é para correções de bugs da versão atual do software.
+                > O **Patch** é para correções de bugs e outros itens simples.
+
 ### Runtime e SDK
 
 ### Revisão
