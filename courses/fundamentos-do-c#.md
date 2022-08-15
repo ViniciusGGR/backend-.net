@@ -355,7 +355,14 @@ O SDK traz o compilador, suporte a sintaxe do C#, várias ferramentas qua auxili
 
 ### Revisão
 
-
+- Frameworks são estruturas prontas, que ajudam a otimizar/economizar tempo e ajudam a diminuir os riscos dos projetos.
+- .NET Framework é o legado.
+- .NET Core é o atual.
+- .NET 5 é o futuro.
+- .NET Standard é a padronização, não sendo um Framework, e sim uma Surface API.
+    - Garante que tudo o que for escrito será compatível com ambos os frameworks.
+- Sempre opte por versões LTS, para colocar as aplicações em produção.
+- Runtime executa, SDK é utilizado para criar as aplicações .NET.
 
 ---
 
