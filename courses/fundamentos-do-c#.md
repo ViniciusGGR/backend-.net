@@ -330,7 +330,32 @@ Versionamento de Software:
 
 ### Runtime e SDK
 
+O Runtime faz o gerenciamento/execução da aplicação, sendo exigido para rodar o código em C# compilado.
+
+Em resumo, as aplicações .NET são dividas em 3:
+- ASP.NET é uma tecnologia dentro do .NET para Aplicações Web.
+- WPF e Winforms para aplicações Desktop.
+- .NET Core para qualquer outra aplicação
+    - Console, Batch, Serviço.
+    - Não possui uma interface por exemplo.
+- Cada um desses serviços dentro do .NET, possuem diversas versões, sendo assim, a versão tem que ser compatível com a versão utilizada durante a codificação.
+
+O Runtime é responsável por rodar/executar as aplicações. O Runtime tem assim um tamanho menor, otimizado para execução.
+
+**SDK** - Sigla para **_Software Development Kit_**.
+- Kit para desenvolvimento de software.
+
+O SDK traz o compilador, suporte a sintaxe do C#, várias ferramentas qua auxiliam durante o desenvolvimento.
+- O tamanho do SDK é muito maior do que o do Runtime, pois o Runtime só executa a aplicação. Já o SDK permite o desenvolvimento de softwares, utilizando o C#, ASP.NET Core...
+- O SDK possui todo o necessário para desenvolver uma aplicação.
+- O SDK já vem com o Runtime integrado.
+    - Não é possível instalar o SDK sem o Runtime, mas é possível instalar o Runtime sem o SDK.
+
+**Dica**: Não é preciso utilizar o SDK em produção, pois para executar só é preciso o Runtime do .NET.
+
 ### Revisão
+
+
 
 ---
 
