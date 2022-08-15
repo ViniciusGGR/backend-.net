@@ -370,6 +370,20 @@ O SDK traz o compilador, suporte a sintaxe do C#, várias ferramentas qua auxili
 
 ### Instalação
 
+[Recurso adicional para instalação](https://balta.io/blog/dotnet-instalacao-configuracao-e-primeiros-passos)
+
+Instalação:
+- Acesse o link do [.NET](https://dotnet.microsoft.com/apps/aspnet).
+- Clique em _Get Started_.
+- Clique em _Download and Install_.
+- Baixe o SDK - Software Development Kit, pois assim será possível desenvolver aplicações com .NET.
+- Após a instalação do executável, basta seguir a ordem de execução do arquivo.
+
+Verificando se o .NET foi instalado com sucesso no Windows:
+- Abra um PowerShell.
+- Execute o comando ``dotnet --version`` no PowerShell.
+    - Se aparecer a versão do .NET no terminal, significa que tudo foi instalado corretamente.
+
 ### dotnet cli
 
 ### VS Code
