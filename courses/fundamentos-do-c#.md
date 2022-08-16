@@ -386,6 +386,19 @@ Verificando se o .NET foi instalado com sucesso no Windows:
 
 ### dotnet cli
 
+CLI - Sigla para _Command Line Interface_.
+- Interface de linha de comando.
+- Comandos do CLI adicionais, integrados ao terminal.
+
+Interfaces gráficas mudam constantemente, já interfaces via linha de comando não mudam com frequência.
+
+Ao instalar o .NET do site oficial da Microsoft, foi instalado junto com uma **CLI**, o _dotnet CLI_.
+- O dotnet CLI é definido pelo comando **_dotnet_**. Todo comando "dotnet ..." está executando o ``dotnet CLI``.
+    - ``dotnet --version`` - Verifica a versão atual.
+    - ``dotnet --list-sdks`` - Lista os SDKs instalados.
+    - ``dotnet --list-runtimes`` - Lista os Runtimes instalados.
+    - ``dotnet help`` - Exibe a ajuda, listando os comandos disponíveis.
+
 ### VS Code
 
 ### Tipos de projeto
