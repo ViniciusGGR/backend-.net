@@ -399,7 +399,25 @@ Ao instalar o .NET do site oficial da Microsoft, foi instalado junto com uma **C
     - ``dotnet --list-runtimes`` - Lista os Runtimes instalados.
     - ``dotnet help`` - Exibe a ajuda, listando os comandos disponíveis.
 
+**Dica**: [Configurando o Windows Terminal](https://balta.io/blog/windows-terminal)
+
 ### VS Code
+
+Visual Studio Code - É um _Editor de Código_.
+
+Visual Studio Community - É uma _IDE_ "Ambiente de Desenvolvimento Integrado". Uma IDE possui muito mais recursos do que um Editor de Código, sendo assim, é necessário uma máquina com melhor processamento para executar uma IDE com tranquilidade.
+
+Instale o VS Code neste [link](https://code.visualstudio.com)
+
+**Nota**: O comando ``code .`` no terminal, abre a pasta na qual você está acessando no momento no VS Code.
+
+O VS Code é muito conhecido por suas extensões, que ajudam muito a produtividade no dia-a-dia.
+- As extensões ficam disponíveis na barra lateral esquerda do VS Code.
+
+Para esse curso introdutório, será necessário a extensão oficial "**C# - ``ms-dotnettools.csharp``** da Microsoft.
+
+- O comando ``Ctrl + ,`` no VS Code, acessa as _Settings/Configurações_.
+- O comando ``Ctrl + Shift + p`` Abre uma barra de pesquisa, com os comandos do VS Code, conhecida como **Show All Commands**.
 
 ### Tipos de projeto
 
