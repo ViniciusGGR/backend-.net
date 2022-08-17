@@ -421,6 +421,45 @@ Para esse curso introdutório, será necessário a extensão oficial "**C# - ``m
 
 ### Tipos de projeto
 
+O .NET é um framework para a criação de aplicações com as linguagens/ecossistema da Microsoft, permitindo assim a criação de projetos de vários tipos, como projetos web, websites, aplicações web, api, machine learning... Cada item/projeto/aplicação criada dentro do .NET, deve-se especificar o _tipo de projeto_ que será utilizado.
+
+Cada _tipo de projeto_ gera um resultado final diferente.
+
+Projeto do _tipo_ **Class Library** - Biblioteca de classe.
+- O resultado final é uma DLL.
+- Não possui interface.
+
+Projeto do _tipo_ **Console Application**.
+- O resultado final é uma aplicação que roda no terminal.
+- Pode receber dados, esperar input do usuário.
+- Possui resultados visíveis, através de uma interface.
+
+Projeto **Web**.
+- Projetos _Web_ no .NET são dividos em:
+    - ASP.NET Web.
+    - ASP.NET MVC.
+    - ASP.NET WebAPI.
+
+Projeto **Testes**.
+- São do tipo _Microsoft Tests_.
+- Projetos de Teste, para testar as aplicações antes de serem enviadas para os clientes, deixando assim, todos os testes _automatizados_.
+
+Criando um novo projeto no .NET através do **dotnet cli**:
+- Utiliza-se o ``dotnet new``:
+    - ``dotnet new console`` => Novo _Console Application_.
+    - ``dotnet new classlib`` => Novo _Class Library_.
+    - ``dotnet new web`` => Novo projeto _ASP.NET Core_.
+    - ``dotnet new mvc`` => Novo projeto _ASP.NET Core_.
+    - ``dotnet new webapi`` => Novo projeto _ASP.NET Core_.
+    - ``dotnet new mstest`` => Novo projeto _Microsoft Test_.
+- Esses comandos criam as estruturas bases/iniciais da aplicação.
+
+O comando ``dotnet new`` cria um projeto, sendo a mesma coisa que gerar os arquivos iniciais de uma aplicação. Esse comando sempre irá gerar os arquivos na pasta atual.
+- Para especificar uma pasta, pode-se utilizar o "**-o**".
+    - ``dotnet new console -o MeuApp``. Esse comando vai criar uma nova pasta chamada _MeuApp_ com os arquivos dentro.
+
+**Dica**: As aplicações em .NET tendem a sempre começar com a primeira letra em Maiúscula do diretório.
+
 ### Fluxo de execução
 
 ### Variáveis de ambiente
