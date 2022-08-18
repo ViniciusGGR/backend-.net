@@ -462,6 +462,21 @@ O comando ``dotnet new`` cria um projeto, sendo a mesma coisa que gerar os arqui
 
 ### Fluxo de execução
 
+Comandos principais do .NET:
+
+``dotnet restore``
+- Restaura todos os pacotes que a aplicação precisa para ser executada.
+``dotnet build``
+- Compila a aplicação.
+``dotnet clean``
+- Limpa as compilações anteriores e arquivos de cache.
+``dotnet run``
+- Compila e executa a aplicação.
+
+**Dica**: Um projeto .NET deve ter um arquivo com extensão **csproj**, dentro do diretório raiz.
+
+A primeira coisa a ser feita ao "pegar/abrir" uma aplicação .NET, é executar o comando ``dotnet restore`` para baixar todas as dependências/pacotes adicionais ao .NET Framework.
+
 ### Variáveis de ambiente
 
 ### Estrutura do App
