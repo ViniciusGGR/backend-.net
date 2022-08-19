@@ -479,6 +479,30 @@ A primeira coisa a ser feita ao "pegar/abrir" uma aplicação .NET, é executar 
 
 ### Variáveis de ambiente
 
+Variáveis de Ambiente:
+- É comum ter vários ambientes para as aplicações.
+    Exemplos:
+    - Desenvolvimento.
+        - Sua máquina é um ambiente de desenvolvimento.
+    - Teste.
+        - É um ambiente criado justamente para _testar_ as aplicações.
+    - Homologação.
+    - Produção.
+    Esses ambientes se referem a onde a aplicação está rodando.
+- Cada ambiente possui suas configurações - "variáveis de ambiente".
+    - Chaves de acesso externo.
+    - Conexões com bancos de dados.
+
+**Dica**: Sempre procure ter um **ambiente de teste** para as aplicações.
+
+Comando ``dotnet run``:
+- No .NET é possível dizer qual ambiente se está utilizando.
+    - dotnet run --environment=**$SEU_AMBIENTE**.
+        - ``dotnet run --environment=development``.
+        - ``dotnet run --environment=production``.
+    - O comando _run_ não executa depuração (Debug).
+        - Neste modo a aplicação não vai parar nos Break Points.
+
 ### Estrutura do App
 
 ### Debug
