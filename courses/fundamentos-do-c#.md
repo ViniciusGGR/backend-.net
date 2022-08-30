@@ -505,6 +505,33 @@ Comando ``dotnet run``:
 
 ### Estrutura do App
 
+Arquivo _.csproj_:
+- Tem o Formato *XML*.
+- Arquivo com definições do projeto.
+- Está presente em todo projeto .NET
+
+Arquivo _Program.cs_:
+- Arquivo principal (C#).
+- Porta de entrada.
+- É o primeiro arquivo a ser executado.
+
+**Nota**: A pasta _bin_ só aparece após a execução do comando ``dotnet build``. Sendo assim o resultado do build/compilação fica dentro da pasta _bin_, que se refere a **binário**.
+
+_NomeDoArquivo_.csproj - O nome do arquivo _.csproj_, sempre seguirá o nome do projeto/app.
+- **cs** - CSharp.
+- **proj** - Projeto.
+- ``<Project Sdk="Microsoft.NET.Sdk">``
+    - Define que é uma estrutura de um projeto, e que esse projeto está utilizando o _.NET Sdk_.
+- Seção/Grupo ``<PropertyGroup>`` dentro desse arquivo do projeto.
+    - ``<OutputType>Exe<OutputType>`` - Tipo de saída _Console_ no .NET, com o Tipo **Exe**, ou seja, um executável.
+    - ``<TargetFramework>netcoreapp3.1<TargetFramework>`` - Se refere a qual Framework essa aplicação está se baseando.
+
+_Program.cs_ - Toda aplicação .NET, tem um ponto de entrada, como o _Program.cs_.
+- Toda vez que é executado o comando ``dotnet run``, será buscado um arquivo **Program.cs** para ser executado.
+- **Nota**: Nunca renomeie esse arquivo, sempre deixe o nome padrão.
+
+A pasta _obj_, é utilizada para tempo de debbug da aplicação, ajudando a encontrar erros/bugs.
+
 ### Debug
 
 ### Revisão
