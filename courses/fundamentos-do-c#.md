@@ -534,6 +534,14 @@ A pasta _obj_, é utilizada para tempo de debbug da aplicação, ajudando a enco
 
 ### Debug
 
+Executando a aplicação em dois modos:
+- Modo _Realese_ - Esse modo serve para **publicação** da aplicação.
+    - Quando executado um ``dotnet run``, a aplicação é executada em _modo realese_ e nós desenvolvedores, somos os "clientes" que estão consumindo essa aplicação.
+
+- Modo _debug/depuração_ - Modo utilizado para procurar bugs/defeitos/falhas na aplicação.
+
+Dica: Quando executado o comando ``dotnet run``, se não tiver nenhum **build**, será feito o _build_ automaticamente sem a necessidade do comando ``dotnet build``.
+
 ### Revisão
 
 ---
