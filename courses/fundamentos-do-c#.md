@@ -547,6 +547,17 @@ Executando a aplicação em dois modos:
 
 ### Revisão
 
+Conteúdo do Módulo:
+- Instalação simples e lado-a-lado.
+    - Instalação do Sdk do .NET Core, Extensões, VSCode.
+- Tipos de Projeto.
+    - Projeto Web, Teste, Class Library, Console...
+- Comandos Principais do .NET:
+    - ``dotnet build``, ``dotnet run``, ``dotnet restore``.
+- Ambientes de Produção, Desenvolvimento, Homologação...
+- Como criar a estrutura de uma aplicação com C#.
+- Como e o que é o Debug.
+
 ---
 
 ## Linguagem de Programação com C#:
