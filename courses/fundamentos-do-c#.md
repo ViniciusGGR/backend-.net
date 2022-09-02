@@ -538,9 +538,12 @@ Executando a aplicação em dois modos:
 - Modo _Realese_ - Esse modo serve para **publicação** da aplicação.
     - Quando executado um ``dotnet run``, a aplicação é executada em _modo realese_ e nós desenvolvedores, somos os "clientes" que estão consumindo essa aplicação.
 
-- Modo _debug/depuração_ - Modo utilizado para procurar bugs/defeitos/falhas na aplicação.
+- Modo _debug/depuração_ - Modo utilizado para procurar/corrigir bugs/defeitos/falhas na aplicação.
+    - Para realizar a _depuração_, é necessário abrir um arquivo com extensão **.cs**
 
-Dica: Quando executado o comando ``dotnet run``, se não tiver nenhum **build**, será feito o _build_ automaticamente sem a necessidade do comando ``dotnet build``.
+**Dica**: Quando executado o comando ``dotnet run``, se não tiver nenhum **build**, será feito o _build_ automaticamente sem a necessidade do comando ``dotnet build``.
+
+**Nota**: JSON - JavaScript Object Notation, é um formato de arquivo, assim como o XML. O JSON tem as definições do que é preciso ser executado na aplicação/programa.
 
 ### Revisão
 
