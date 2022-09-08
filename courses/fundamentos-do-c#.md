@@ -564,6 +564,17 @@ Conteúdo do Módulo:
 
 ### Notas importantes
 
+Não deve ser utilizado _espaços e caracteres especiais_ na criação do programa.
+    - Exemplos: **"MeuApp", "Pedidos", "MinhaApp"**, são bons nomes. Já os **"Meu App", "$App", "App #Teste"**, são nomes ruins que devem ser evitados.
+Tente sempre utilizar caminhos curtos e sem caracteres especiais.
+    - Bons: _c:\dev_, _C:\apps_.
+    - Ruins: _C:\Caminho Com Espaços e Caracteres Especiais\Meu App_.
+Evite criar aplicações em caminhos de rede.
+    - Se possível sempre opte por utilizar o C:\
+O C# é _Case Sensitive_.
+    - Significa que diferencia maiúsculas de minúsculas.
+        - **Teste** é diferente de **teste**.
+
 ### Escopo de um programa
 
 ### Namespaces
